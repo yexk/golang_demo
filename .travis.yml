@@ -4,8 +4,5 @@ go:
   - 1.14.x
   - master
 
-before_script:
-  - go get -u -v github.com/spf13/hugo
-
 script:
   - go build src/main.go
